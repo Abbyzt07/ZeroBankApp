@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.bitrix.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 16.145 s <<< FAILURE! - in com.bitrix.runners.CukesRunner
+credit accounts table(check the accounts summary)  Time elapsed: 15.625 s  <<< ERROR!
+java.lang.NullPointerException
+

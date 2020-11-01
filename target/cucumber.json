@@ -1,0 +1,177 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-01T13:02:46.497Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7950577800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bitrix.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Search description",
+        "description": "",
+        "id": "find-transactions-in-account-activity;search-description",
+        "after": [
+          {
+            "result": {
+              "duration": 676783900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bitrix.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2655482000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user accesses the Find Transaction tab",
+            "match": {
+              "location": "com.bitrix.stepdefinitions.FindTransactionDefs.the_user_accesses_the_Find_Transaction_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 266296400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters description \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.bitrix.stepdefinitions.FindTransactionDefs.the_user_enters_description(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1075399300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click search",
+            "match": {
+              "location": "com.bitrix.stepdefinitions.FindTransactionDefs.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51996600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "results table should only show descriptions containing \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 55
+                }
+              ],
+              "location": "com.bitrix.stepdefinitions.FindTransactionDefs.results_table_should_only_show_descriptions_containing(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100901100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user enters description \"OFFICE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OFFICE\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.bitrix.stepdefinitions.FindTransactionDefs.the_user_enters_description(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1047946000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click search",
+            "match": {
+              "location": "com.bitrix.stepdefinitions.FindTransactionDefs.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48935200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "results table should only show descriptions containing \"OFFICE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OFFICE\"",
+                  "offset": 55
+                }
+              ],
+              "location": "com.bitrix.stepdefinitions.FindTransactionDefs.results_table_should_only_show_descriptions_containing(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19996600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "results table should not show descriptions containing \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.bitrix.stepdefinitions.FindTransactionDefs.results_table_should_not_show_descriptions_containing(java.lang.String)"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Find Transactions in Account Activity",
+    "description": "",
+    "id": "find-transactions-in-account-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FindTransactions.feature",
+    "tags": []
+  }
+]
